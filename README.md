@@ -22,4 +22,8 @@ python3 epd_4in26_test.py
 # run on reboot
 run as a cron job on pi restart
 
+crontab -e
 @reboot /usr/bin/python3 /home/adrian/sandbox/pi-zero-clock/yearclock/year.clock.py
+
+## references
+https://www.waveshare.com/wiki/4.26inch_e-Paper_HAT
