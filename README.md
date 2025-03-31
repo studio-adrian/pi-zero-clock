@@ -3,6 +3,8 @@
 ## Purpose
 This is a Year Clock.  It will show the current time and date, however will also show where you are in the year.  It also displays Sprints across the year (3 week cycles labled as YY.Q.N where YY is the year, Q is the quarter (1,2,3,4) and N is the Sprint number in the quarter (1,2,3,4).  So the second sprint in the 3rd quarter will be 25.3.2.
 
+![YearClock](YearClock.png)
+
 ## setup a new pi
 - sudo apt-get update
 - sudo apt-get install python3-pip
